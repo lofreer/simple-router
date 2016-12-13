@@ -1,5 +1,5 @@
 {
-  "name": "simple",
+  "name": "simple-router",
   "version": "1.0.0",
   "description": "js",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lofreer/simple.git"
+    "url": "git+https://github.com/lofreer/simple-router.git"
   },
   "author": "Lofreer <lofreer@gmail.com>",
   "license": "ISC",
@@ -24,9 +24,9 @@
     "jshint": "^2.9.4"
   },
   "bugs": {
-    "url": "https://github.com/lofreer/simple/issues"
+    "url": "https://github.com/lofreer/simple-router/issues"
   },
-  "homepage": "https://github.com/lofreer/simple#readme",
+  "homepage": "https://github.com/lofreer/simple-router#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-uglify": "^2.0.0",

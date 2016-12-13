@@ -4,13 +4,13 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint');
 
 gulp.task('jshint', function(){
-    return gulp.src('lib/simple.js')
+    return gulp.src('lib/simple-router.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
 });
 
 gulp.task('minifyjs', function(){
-    return gulp.src('lib/simple.js')
+    return gulp.src('lib/simple-router.js')
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
         .pipe(gulp.dest('lib'));
